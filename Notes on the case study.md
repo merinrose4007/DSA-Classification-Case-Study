@@ -35,7 +35,7 @@ Since all the numerical features exhibited a skewed distribution, Min-Max Scalin
 
 ## Feature Engineering
 To capture the long-term revenue potential of each customer, a new feature called CustomerLifetimeValue was created.
-This feature estimates the total amount a customer has contributed (or is expected to contribute) based on their tenure and average monthly charges.
+This feature estimates the total amount a customer has contributed (or is expected to contribute) based on their tenure and average monthly charges. Since Correlation between Tenure and Total Charges is 0.80 One of the feature is removed.
 
 ## Model Building
 Three machine learning models were implemented for churn prediction: Logistic Regression, Decision Tree, and Random Forest.
